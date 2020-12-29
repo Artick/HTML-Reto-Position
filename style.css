@@ -13,7 +13,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 main {
@@ -36,8 +36,8 @@ header img {
 
 .character__container {
   background: radial-gradient(circle, #e98d4b 0%, #813e1d 90%);
-  border: .2rem #e98d4b solid;
-  border: .2rem black solid;
+  border: 0.2rem #e98d4b solid;
+  border: 0.2rem black solid;
   margin: -6.25rem auto 0 auto;
   padding-top: 5rem;
   text-align: center;
